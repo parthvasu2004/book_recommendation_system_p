@@ -10,11 +10,6 @@
     .text-white {
         color: white;
     }
-    .book-card {
-        border: 2px solid #ff7f50;
-        padding: 10px;
-        margin: 10px 0;
-    }
 </style>
 <body style="background-color: black">
 
@@ -34,7 +29,7 @@
         </div>
 
         {% for i in range(book_name|length) %}
-        <div class="col-md-3 book-card" style="margin-top: 50px">
+        <div class="col-md-3" style="margin-top: 50px">
             <div class="card">
                 <div class="card-body">
                     <img class="card-img-top" src="{{ image[i] }}">
